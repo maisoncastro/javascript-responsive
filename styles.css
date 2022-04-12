@@ -156,3 +156,46 @@
     transform: translateY(-8px) rotate(-45deg);
   }
 }
+
+/* Hero Section */
+
+.hero {
+  background: #fff;
+}
+
+.hero_container {
+  display: flex;
+  flex-direction: space-between;
+  /* justify-content: center; */
+  align-items: center;
+  /* max-width: 600px; */
+  /* margin: 0 auto; */
+  height: 90%;
+  text-align: left;
+  padding: 80px;
+}
+
+.hero_heading {
+  font-size: 60px;
+  margin-bottom: 24px;
+  color: #363938;
+}
+
+.hero_heading span {
+  color: #937ff8;
+  /* -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent; */
+}
+
+.hero_description {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  order: 2;
+}
